@@ -4,4 +4,13 @@
 #### 1. Cursor Ai - local AI agent
 its is a powerful Ai integrated IDE that allows you to develop anything no matter how complex and big it is, just explain it want you want, more detailed promt -> more classic result. Import a folder, tell him for changes and those changes will automatically reflect in original code until you revert it
 
+### API for sending object to server - 
+The data is stored in object called payload and given as argument to handler function along with headers -
+const (ishandle, handleSend) = HandlerFunc; // declared at top
+// middle code
+res = await handleSend(payload, headers);
+
+### Checking of API - after hitting an API we can check it in two ways - 
+Devtools - inspect>newtork > clear it using 🚫 icon >  hit api through application > click on newly appeared link > check status code and response
+
 
