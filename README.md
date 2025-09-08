@@ -13,6 +13,6 @@ res = await handleSend(payload, headers);
 ### Checking of API - after hitting an API we can check it in two ways - 
 Devtools - inspect>newtork > clear it using 🚫 icon >  hit api through application > click on newly appeared link > check status code and response
 
-## Redux
+### Explored the most optimised state management library Redux with Redux tool kit (RTK) - 
 
 
