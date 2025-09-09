@@ -22,8 +22,17 @@ Devtools - inspect>newtork > clear it using 🚫 icon >  hit api through applica
 - createSlice - A slice helps you organize your store by bundling together the logic and actions for a specific feature, like a user's profile or a shopping cart.
 - useSelector - This hook lets your components peek into the store and select a specific piece of data to read and display, like getting the current user's name.
 
-  ### NVM - this is a  version manager of node
-  refer the path -
+  ### NVM - this is a  veconst something = require("./file") → for default/single export
+
+  ### Importing module in React Node files
+  const { something } = require("./file") → for named/multiple exportsrsion manager of node
+  refer the path - /node.exe type, other paths than this create issue, shouldb e removed
+
+  @@@ data?.response means:
+👉 “If data exists (not null or undefined), then access response.
+👉 Otherwise, just return undefined instead of throwing an error.”
+
+
 
   
 
