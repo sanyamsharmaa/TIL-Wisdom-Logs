@@ -33,6 +33,12 @@ Devtools - inspect>newtork > clear it using 🚫 icon >  hit api through applica
 👉 Otherwise, just return undefined instead of throwing an error.”
 
 
+### Keep Common Js and ES6 separate - =
+ES6 = export abc async = ()=>{} delcare and export together
+CommonnJs - import - const abs = require(bcabc") export - module.export
+
+
+### Redis - 
 
   
 
