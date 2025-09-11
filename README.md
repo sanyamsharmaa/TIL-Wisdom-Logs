@@ -38,7 +38,15 @@ ES6 = export abc async = ()=>{} delcare and export together
 CommonnJs - import - const abs = require(bcabc") export - module.export
 
 
-### Redis - 
+### JSON.stringify() and JSON.parse() -
+These methods are used tranform data type of data to transfer and store it optimally
+JSON.stringify(obj) take a json object and return a string 
+JSON.parse(str) is completely opposite of above, converts string of object to json object
+note : JSON.parese() return object for Null value even type of Null is object itself - this is historic quirk
+
+### Map
+const map = new Map() // declaration, having methods -
+map.set(key, value), map.get(key), map.has(key), map.delete()
 
   
 
