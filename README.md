@@ -48,6 +48,12 @@ note : JSON.parese() return object for Null value even type of Null is object it
 const map = new Map() // declaration, having methods -
 map.set(key, value), map.get(key), map.has(key), map.delete()
 
+### response?.data 
+checks wheather response is undefined ot not if yes then access data, help to avoid unnecessary erros
+
+### (req, res) => {}
+
+
   
 
 
