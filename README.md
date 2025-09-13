@@ -53,6 +53,14 @@ checks wheather response is undefined ot not if yes then access data, help to av
 
 ### (req, res) => {}
 
+### Socket api - 
+socket - call for specific user
+io - global call
+socekt.emit(apiname, {})
+// post request 
+socket.on(apiname, (data)=>{...}) // get request
+
+
 
   
 
