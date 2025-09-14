@@ -51,7 +51,20 @@ map.set(key, value), map.get(key), map.has(key), map.delete()
 ### response?.data 
 checks wheather response is undefined ot not if yes then access data, help to avoid unnecessary erros
 
-### (req, res) => {}
+### Request and Response methods -
+request- 
+req.method – "GET" | "POST" | "PUT" | "PATCH" | "DELETE" | ..."
+req.path / req.originalUrl – route path vs full URL (good for logging).
+req.params – path variables from the route pattern.
+Route: /users/:id → req.params.id
+req.query – from the URL’s ?key=value (always strings by default).
+/users?page=2&limit=20 → req.query.page, req.query.limit
+req.body – JSON/form data from the request body (needs parsers).
+
+response- 
+res.status(code) – set HTTP status.
+res.json(obj) – send JSON (sets Content-Type: application/json).
+res.send(body) – send string/Buffer/JSON.
 
 ### Socket api - 
 socket - call for specific user
