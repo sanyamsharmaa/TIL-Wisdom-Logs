@@ -79,10 +79,14 @@ check conflict and choose changes according to prefrences and merge
 after completing your work push in you branch - 
 git add .
 git commit -m "message"
+get pull origin regular_pull_branch
 git push
 
 to check current branch - git status
 to change branck - git checkout branch_name
+
+
+###
 
 
 
