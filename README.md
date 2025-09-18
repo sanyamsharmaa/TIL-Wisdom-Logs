@@ -86,7 +86,8 @@ to check current branch - git status
 to change branck - git checkout branch_name
 
 
-###
+### use ref and use memo hook
+
 
 
 
