@@ -89,6 +89,14 @@ to change branck - git checkout branch_name
 ### use ref and use memo hook
 
 
+### AuthN & AuthZ - jwt, cookie, token injection
+Cookie Login: You can log in on new browsers by copying session cookies, but the HttpOnly flag often blocks this.
+Token Secrets: A JWT's middle part can be decoded to find its expiration time, but not its secret signing key.
+Role Forgery: Changing your role from "user" to "admin" in a token will fail because it invalidates the server's signature.
+Mass Assignment Flaw: Old or rushed websites might have a bug allowing you to set your own role upon registration.
+
+
+
 
 
   
