@@ -87,13 +87,17 @@ to change branck - git checkout branch_name
 
 
 ### use ref and use memo hook
-
+useRef - useRef helps to create a variable whose value is set once and stored in  DOM, that remains same across component renders without causing re-renders when the value changes.
+useHook - useMemo is a React Hook that allows for the memoization of a value, preventing its recalculation on every render unless its dependencies change.
 
 ### AuthN & AuthZ - jwt, cookie, token injection
 Cookie Login: You can log in on new browsers by copying session cookies, but the HttpOnly flag often blocks this.
 Token Secrets: A JWT's middle part can be decoded to find its expiration time, but not its secret signing key.
 Role Forgery: Changing your role from "user" to "admin" in a token will fail because it invalidates the server's signature.
 Mass Assignment Flaw: Old or rushed websites might have a bug allowing you to set your own role upon registration.
+
+### Populate method in mongoose
+module.find({field1}).populate({field2}) use a field as refrence to replace a that field with data of other modal in that modal
 
 
 
