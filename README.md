@@ -100,6 +100,13 @@ Mass Assignment Flaw: Old or rushed websites might have a bug allowing you to se
 module.find({field1}).populate({field2}) use a field as refrence to replace a that field with data of other modal in that modal
 
 
+### .includes method in array 
+This method helps to check weather a variable holds value that lie in an array
+eg. let a = 4 then [2,4,6,8].includes(a) will return true
+
+
+
+
 
 
 
