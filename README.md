@@ -104,6 +104,19 @@ module.find({field1}).populate({field2}) use a field as refrence to replace a th
 This method helps to check weather a variable holds value that lie in an array
 eg. let a = 4 then [2,4,6,8].includes(a) will return true
 
+### Interface -
+this very fundamental important feature but we ignored it yet, one of its main role is defining the type of a variable/state in typescript 
+eg - 
+interface uesrData ={
+id: string,
+name: string
+mobile: number
+email : string
+age: number
+}
+
+const [data,setData] = useState<userData[]>[]
+
 
 
 
