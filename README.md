@@ -117,6 +117,9 @@ age: number
 
 const [data,setData] = useState<userData[]>[]
 
+### Aggregation - powerful concept used for processing and transforming records. 
+pipeline - an array having series of operations defined in it, that process data in same order the operations are written. 
+
 
 
 
