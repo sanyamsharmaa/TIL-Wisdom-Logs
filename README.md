@@ -120,6 +120,25 @@ const [data,setData] = useState<userData[]>[]
 ### Aggregation - powerful concept used for processing and transforming records. 
 pipeline - an array having series of operations defined in it, that process data in same order the operations are written. 
 
+const data = data_module.aggregate([
+{
+$match : matchFilter
+},
+{
+$group :{ _id:ID, total:{$sum:'field_name'}}
+},
+so on..
+])
+
+
+### region tag in comments -
+when you add #region before any comment in VS code, you can see where the section lies in code preview at right
+
+### Form data and multer -
+when you need to send files and text from postman/frontend through form-data part, then you can't simply access data from req.body, it should be proccessed in multer logic -
+// in router
+routes.post('/test',multerFunc.single('field_name_of_file',controllerFunction)
+
 
 
 
