@@ -140,7 +140,7 @@ when you need to send files and text from postman/frontend through form-data par
 routes.post('/test',multerFunc.single('field_name_of_file',controllerFunction)
 
 ### Strict mode in JS
-this helps the code to use 
+this helps the code to use restricted version of javascript, this puts some extra rules in the programming which helps use to catch silent errors
 
 
 
