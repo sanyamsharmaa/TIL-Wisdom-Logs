@@ -22,13 +22,15 @@ Devtools - inspect>newtork > clear it using 🚫 icon >  hit api through applica
 - createSlice - A slice helps you organize your store by bundling together the logic and actions for a specific feature, like a user's profile or a shopping cart.
 - useSelector - This hook lets your components peek into the store and select a specific piece of data to read and display, like getting the current user's name.
 
-  ### NVM - this is a  veconst something = require("./file") → for default/single export
+  ### NVM - this is a node version manager in our system, it gives use flexiblity to use differnt node version for different folder/project without changing the version globally
+
+const something = require("./file") → for default/single export
 
   ### Importing module in React Node files
   const { something } = require("./file") → for named/multiple exportsrsion manager of node
   refer the path - /node.exe type, other paths than this create issue, shouldb e removed
 
-  @@@ data?.response means:
+ ### The expression data?.response means:
 👉 “If data exists (not null or undefined), then access response.
 👉 Otherwise, just return undefined instead of throwing an error.”
 
@@ -42,14 +44,11 @@ CommonnJs - import - const abs = require(bcabc") export - module.export
 These methods are used tranform data type of data to transfer and store it optimally
 JSON.stringify(obj) take a json object and return a string 
 JSON.parse(str) is completely opposite of above, converts string of object to json object
-note : JSON.parese() return object for Null value even type of Null is object itself - this is historic quirk
+note : JSON.parse() return object for Null value instead of error, even type of Null is object itself - this is historic quirk
 
 ### Map
 const map = new Map() // declaration, having methods -
 map.set(key, value), map.get(key), map.has(key), map.delete()
-
-### response?.data 
-checks wheather response is undefined ot not if yes then access data, help to avoid unnecessary erros
 
 ### Request and Response methods -
 request- 
