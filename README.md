@@ -139,8 +139,8 @@ when you need to send files and text from postman/frontend through form-data par
 // in router
 routes.post('/test',multerFunc.single('field_name_of_file',controllerFunction)
 
-
-
+### Strict mode in JS
+this helps the code to use 
 
 
 
