@@ -152,7 +152,7 @@ express.use(cors())
 
 
 Github powerful method to save all the history of code for each commit - 
-github keeps save a copy of code on each commit seperately, so if you pushed some wrong code and unable to undo code then no need to worry go to the repo -> history -> find to file to restore -> go to commits->find the merge or commit where the code was correct -> now you can copy the previous code
+github keeps save a copy of code on each commit seperately, so if you pushed some wrong code and unable to undo code then no need to worry go to the repo -> history -> find to file to restore -> go to commits->find the merge or commit where the code was correct -> now you can copy the previous code.
 
 
 
